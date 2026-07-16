@@ -1,0 +1,9 @@
+# robots.txt — Riesgo de Obra by CoreSyn
+User-agent: *
+Allow: /
+
+Disallow: /gracias/
+Disallow: /thank-you/
+Disallow: /admin/
+
+Sitemap: https://riesgodeobra.es/sitemap.xml
