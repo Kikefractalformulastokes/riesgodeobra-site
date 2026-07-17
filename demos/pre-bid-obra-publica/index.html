@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pre-Bid Public Works Risk Audit | Demo pública | Riesgo de Obra</title>
+<meta name="description" content="Demo pública: cómo CoreSyn audita un pliego de obra pública antes de ofertar, a partir de la Ley de Contratos del Sector Público y datos abiertos de contratación.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://riesgodeobra.es/demos/pre-bid-obra-publica/">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="/" class="brand" style="text-decoration:none">Riesgo de <span>Obra</span><small>by CoreSyn</small></a>
+    <div class="navlinks">
+      <a href="/demos/">Demos</a>
+      <a href="/es/auditoria-rehabilitacion-fachada/">Fachadas</a>
+      <a href="/es/revision-presupuesto-obra/">Presupuestos</a>
+      <a href="https://buy.stripe.com/00wbIU7Od2d25jB3jQ4F20j" class="btn btn-primary">Risk Scan 48h</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap"><div class="breadcrumb"><a href="/">Inicio</a> › <a href="/demos/">Demos públicas</a> › Pre-Bid Public Works Risk Audit</div></div>
+
+<header class="hero" style="padding:56px 0">
+  <div class="wrap">
+    <div class="demo-badge">Demo basada exclusivamente en información pública</div>
+    <div class="kicker">Fuente: Plataforma de Contratación del Sector Público · Ley 9/2017 (LCSP)</div>
+    <h1>Pre-Bid Public Works Risk Audit</h1>
+    <p class="sub">Reconstrucción metodológica de cómo CoreSyn audita un pliego de obra pública antes de ofertar, a partir del marco legal de contratación pública y de los datos abiertos que publica la Plataforma de Contratación del Sector Público (PLACSP). Ejemplo ilustrativo, no vinculado a una licitación concreta.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">Contexto</div>
+    <h2>Por qué se audita un pliego antes de ofertar</h2>
+    <p>La Ley 9/2017, de Contratos del Sector Público (LCSP), regula cómo se licitan, adjudican y ejecutan los contratos de obra pública en España: solvencia exigible, criterios de adjudicación, umbrales de baja temeraria, penalidades, garantías y régimen de modificados. Una empresa que oferta sin leer el pliego con criterio de riesgo puede ganar un contrato que, en la práctica, no es viable: penalidades severas mal calculadas, un alcance ambiguo que se traduce en trabajo no retribuido, o una solvencia exigida que compromete la clasificación de la empresa en otros concursos.</p>
+    <div class="demo-disclaimer">Esta página no analiza un pliego real y concreto. Ilustra la metodología de CoreSyn con riesgos típicos y umbrales legales vigentes (LCSP), aplicables como marco general a cualquier licitación de obra pública en España.</div>
+  </div>
+</section>
+
+<section style="background:var(--paper)">
+  <div class="wrap">
+    <div class="kicker">Cómo se analiza un pliego antes de ofertar</div>
+    <div style="margin-top:20px">
+      <div class="step"><div class="n">1</div><div><h3>Lectura cruzada PCAP + PPT</h3><p>El pliego de cláusulas administrativas (PCAP) y el pliego de prescripciones técnicas (PPT) deben ser coherentes entre sí; las contradicciones son riesgo desde el día uno.</p></div></div>
+      <div class="step"><div class="n">2</div><div><h3>Umbrales económicos</h3><p>Presupuesto base de licitación, fórmula de baja temeraria y margen real de rentabilidad si se oferta cerca del umbral.</p></div></div>
+      <div class="step"><div class="n">3</div><div><h3>Solvencia y clasificación</h3><p>Requisitos de solvencia económica, financiera y técnica exigidos, y su impacto en la capacidad de licitar a otros contratos en paralelo.</p></div></div>
+      <div class="step"><div class="n">4</div><div><h3>Plazos, penalidades y garantías</h3><p>Hitos de ejecución, penalidades por retraso, garantía definitiva exigida y condiciones de devolución.</p></div></div>
+      <div class="step"><div class="n">5</div><div><h3>Alcance y régimen de modificados</h3><p>Qué queda dentro del precio cerrado, qué se considera modificado, y bajo qué condiciones de la LCSP se puede tramitar.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">Matriz de evidencia</div>
+    <h2>Pliego → requisito → riesgo → impacto → pregunta crítica</h2>
+    <div class="table-wrap">
+      <table class="evidence-table">
+        <tr><th>Requisito del pliego</th><th>Riesgo</th><th>Impacto potencial</th><th>Pregunta crítica</th></tr>
+        <tr><td>Umbral de baja temeraria (habitualmente 10, 20 o 25 puntos según el método fijado en el PCAP)</td><td>Ofertar cerca del umbral sin margen real de ejecución</td><td>Riesgo de incurrir en baja temeraria o de ofertar sin rentabilidad</td><td>¿Qué método de cálculo de baja temeraria fija este PCAP en concreto?</td></tr>
+        <tr><td>Penalidades por retraso (hasta el 10% del importe del contrato)</td><td>Plazos de ejecución poco realistas frente al alcance descrito</td><td>Penalidad económica significativa si se incumple el calendario</td><td>¿El plazo de ejecución es coherente con el alcance técnico del PPT?</td></tr>
+        <tr><td>Solvencia técnica y económica exigida</td><td>Requisitos que comprometen la capacidad de licitar otros contratos en paralelo</td><td>Riesgo de concentración de clasificación / aval en un solo contrato</td><td>¿Qué parte de la solvencia disponible consume este contrato?</td></tr>
+        <tr><td>Alcance ambiguo o "según proyecto"</td><td>Trabajo no definido con precisión que puede acabar como coste no retribuido</td><td>Erosión de margen si el alcance real excede lo presupuestado</td><td>¿Qué partidas del PPT no tienen medición ni precio cerrado?</td></tr>
+        <tr><td>Régimen de modificados</td><td>Modificados no previstos en el PCAP, o fuera de los supuestos legales de la LCSP</td><td>Riesgo de no poder repercutir sobrecostes sobrevenidos</td><td>¿El PCAP prevé modificados y bajo qué condiciones exactas?</td></tr>
+        <tr><td>Garantía definitiva y forma de pago</td><td>Garantía elevada o forma de pago que tensiona la tesorería de la obra</td><td>Riesgo de tensión financiera durante la ejecución</td><td>¿Qué calendario de certificaciones y pagos fija el pliego?</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--paper)">
+  <div class="wrap">
+    <div class="kicker">Riesgos típicos</div>
+    <div class="grid g2">
+      <div class="card"><h3>Plazo</h3><p>Calendario de ejecución incompatible con el alcance real descrito en el PPT.</p></div>
+      <div class="card"><h3>Penalidades</h3><p>Penalidades por retraso o incumplimiento mal calibradas frente al riesgo asumido.</p></div>
+      <div class="card"><h3>Solvencia</h3><p>Requisitos de solvencia técnica y financiera que comprometen otras licitaciones en curso.</p></div>
+      <div class="card"><h3>Baja temeraria</h3><p>Umbral de baja anormal que penaliza ofertas ajustadas sin margen real.</p></div>
+      <div class="card"><h3>Alcance ambiguo</h3><p>Partidas "según proyecto" o sin medición cerrada que generan coste no presupuestado.</p></div>
+      <div class="card"><h3>Modificados</h3><p>Régimen de modificados restringido por la LCSP; lo no previsto en el PCAP es difícil de repercutir.</p></div>
+      <div class="card"><h3>Garantías</h3><p>Garantía definitiva y su devolución, condicionadas al plazo y a la recepción de la obra.</p></div>
+      <div class="card"><h3>Forma de pago</h3><p>Calendario de certificaciones y plazo de pago de la administración, con impacto en tesorería.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">Qué entregaría CoreSyn</div>
+    <div class="grid g2">
+      <div class="card"><h3>Timeline</h3><p>Hitos del procedimiento de licitación y de ejecución, con sus fechas críticas.</p></div>
+      <div class="card"><h3>Mapa de partes</h3><p>Órgano de contratación, mesa de contratación y agentes técnicos implicados.</p></div>
+      <div class="card"><h3>Matriz documental</h3><p>Pliego → requisito → riesgo → impacto → pregunta crítica, específica del pliego real que nos aportes.</p></div>
+      <div class="card"><h3>Risk score cualitativo</h3><p>Semáforo de riesgo por bloque: económico, plazo, técnico y jurídico.</p></div>
+      <div class="card"><h3>Preguntas críticas</h3><p>Listado para resolver con tu equipo técnico y jurídico antes de presentar oferta.</p></div>
+      <div class="card"><h3>Informe ejecutivo</h3><p>Recomendación clara: ofertar, ofertar con condiciones, o no ofertar.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--paper)">
+  <div class="wrap">
+    <div class="kicker">Fuentes públicas</div>
+    <ul class="source-list">
+      <li><a href="https://www.boe.es/buscar/pdf/2017/BOE-A-2017-12902-consolidado.pdf" target="_blank" rel="noopener">Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE, texto consolidado)</a></li>
+      <li><a href="https://contrataciondelestado.es/" target="_blank" rel="noopener">Plataforma de Contratación del Sector Público (PLACSP)</a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="cta" class="final">
+  <div class="wrap">
+    <h2>¿Vas a ofertar a una obra pública?</h2>
+    <p>Auditamos el pliego real antes de que presentes oferta: riesgo económico, de plazo, técnico y jurídico, en un informe accionable.</p>
+    <a href="https://buy.stripe.com/8x26oAecB18Y7rJ07E4F20o" class="btn btn-primary">Solicitar Pre-Bid Public Works Risk Audit</a>
+    <a href="https://tally.so/r/VLAaxJ" class="btn btn-ghost">Solicitar revisión / enviar documentación</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="brand">Riesgo de <span style="color:var(--accent)">Obra</span> · <small style="text-transform:none;letter-spacing:0;color:#6f8296">by CoreSyn</small></div>
+    <p style="margin-top:10px"><a href="/">Inicio</a> · <a href="/demos/">Todas las demos</a> · <a href="/legal/aviso-legal/">Aviso legal</a> · <a href="/legal/privacidad/">Privacidad</a></p>
+    <p class="disc">Esta demo es una reconstrucción metodológica basada en fuentes públicas (marco legal LCSP y datos abiertos de contratación pública), no en un pliego o licitación concreta. CoreSyn es una capa independiente de evidencia y risk intelligence. No emitimos certificaciones oficiales ni visados, no realizamos dirección facultativa ni dictamen pericial, y no sustituimos a abogados, arquitectos, aparejadores, ingenieros ni peritos. Nada en esta página constituye asesoramiento legal.</p>
+  </div>
+</footer>
+
+</body>
+</html>
