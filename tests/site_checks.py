@@ -122,6 +122,32 @@ def check_canonical_present(pages):
     return errors
 
 
+def check_heading_and_alt(pages):
+    errors = []
+    for path in pages:
+        d = open(path, encoding="utf-8").read()
+        h1s = re.findall(r"<h1[ >]", d)
+        if len(h1s) == 0:
+            errors.append(f"{path}: no <h1> found")
+        elif len(h1s) > 1:
+            errors.append(f"{path}: {len(h1s)} <h1> tags found, expected exactly 1")
+        for img in re.findall(r"<img\b[^>]*>", d):
+            if "alt=" not in img:
+                errors.append(f"{path}: <img> missing alt attribute: {img[:80]!r}")
+    return errors
+
+
+def check_security_meta(pages):
+    errors = []
+    for path in pages:
+        d = open(path, encoding="utf-8").read()
+        if 'name="referrer"' not in d:
+            errors.append(f"{path}: missing referrer-policy meta")
+        if "Content-Security-Policy" not in d:
+            errors.append(f"{path}: missing CSP meta")
+    return errors
+
+
 def check_sitemap_routes_resolve():
     errors = []
     sm = open("sitemap.xml", encoding="utf-8").read()
@@ -142,6 +168,8 @@ def main():
         ("Internal links resolve", check_internal_links),
         ("No prohibited claims / placeholders", check_prohibited_and_placeholders),
         ("Canonical + viewport present", check_canonical_present),
+        ("Single H1 + alt text", check_heading_and_alt),
+        ("Security meta (referrer + CSP)", check_security_meta),
     ]
     for name, fn in checks:
         errs = fn(pages)
