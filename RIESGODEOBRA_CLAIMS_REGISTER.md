@@ -18,5 +18,15 @@ Every claim proposed for the new lifecycle pages, tagged per instruction. Nothin
 | 12 | Automatic CENDOJ integration | UNSUPPORTED | Contradicted by the CENDOJ demo's own disclaimer (public-source reconstruction, not live integration). Not included. |
 | 13 | Verified court success / existing corporate clients / field validation | UNSUPPORTED | No evidence anywhere in the repo (testimonials, case studies, or client logos absent). Not included. |
 
+## Growth additions — 2026-08-08 (GREG_GROWTH_EXECUTION, order RO-GLOBAL-GROWTH-001)
+
+New claims required by growth drafts, registered before use per hard rule. No existing entry reinterpreted.
+
+| # | Claim | Tag | Evidence basis | Limitations |
+|---|---|---|---|---|
+| G1 | "Checklist gratuito: 21 riesgos en obras de rehabilitación" (lead magnet) | SUPPORTED | `descargas/21-riesgos-obra-rehabilitacion.pdf` exists in the published repo and is already linked from the funnel. | Content of the PDF not re-audited this cycle; claim limited to "existe y es descargable", no outcome promises. |
+| G2 | "Demos públicas con metodología documentada (pre-bid, defectos/CENDOJ)" | SUPPORTED | `/demos/pre-bid-obra-publica/` and `/demos/defectos-constructivos-cendoj/` exist with explicit "reconstrucción metodológica basada en fuentes públicas" disclaimers. | Must always carry the reconstruction framing; never presented as client engagements. Canal de Panamá demo EXCLUDED from commercial use pending human review. |
+| G3 | "Cobertura del ciclo de vida: pre-obra y reclamaciones demostradas; control de obra como capacidad planificada" | PARTIALLY_SUPPORTED | Pre-obra and reclamaciones lanes have live pages/demos (register #2–4, #7–8); control de obra is ROADMAP (register #5–6). | Any asset naming control de obra must label it as planned capability ("capacidad planificada / en desarrollo"), never demonstrated. |
+
 ## Net effect
 Of 13 candidate claims for the new pages, **6 are already supported by existing site content**, **2 are roadmap-labeled capabilities** (control-de-obra lane is the thinnest today — this matches the audit's finding in §13/14), **1 carries forward an existing partially-supported claim unchanged**, and **4 prohibited claim types are explicitly excluded**, consistent with what the current-state audit found (zero prohibited claims currently published).
