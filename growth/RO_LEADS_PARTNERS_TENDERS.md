@@ -41,6 +41,36 @@ Radar spec (manual weekly sweep until automation approved):
   (2) tender flow = lead source for the pre-bid offer (sell TO bidders — no submission needed).
 - Play 2 is executable without tender submission approval; Play 1 always OWNER-gated.
 
+## C2. Cycle-2 updates (2026-08-08)
+
+### Despachos de derecho de la construcción — 11 identified (FACT: firms exist, per public sites this session; fit is INFERENCE; no contact data recorded)
+| Firm | Location | Public source |
+|---|---|---|
+| Tres-K Abogadas | Madrid | treskabogadas.es (defectos constructivos, exclusiva inmobiliario) |
+| JRM Estudio Legal | Madrid | jrm-estudiolegal.com (defectos + informes periciales) |
+| Reclama Defectos (Osset/Montijano) | Madrid | reclamadefectos.com |
+| VBB Abogados | Barcelona | vbbabogados.com (defectos; también promotoras/constructoras) |
+| Iene Abogados | Madrid | ieneabogados.es (construcción e inmobiliario) |
+| AJF Legal | — | ajflegal.com (reclamación defectos LOE) |
+| Cerrillo Gómez | Barcelona | cerrillogomez.com |
+| Belmonte Crespo Abogados | Barcelona + Valencia | belmontecrespoabogados.com |
+| Eseberri Abogados | Barcelona | eseberriabogados.com (contratos de obra/reforma) |
+| Real Abogados | — | realabogados.com (especialistas derecho de la construcción) |
+| Boltas Boyé Abogados | Barcelona | referenced via asesor.legal listing (verify site directly before outreach) |
+Angle for all: RO organizes the documentary evidence layer (matriz defecto–evidencia,
+methodological framing) that feeds their periciales/demandas — complement, not competitor.
+
+### CPV shortlist — VALIDATED with real 2026 tenders (FACT)
+- 71300000 + 71310000 confirmed live: e.g. Comunidad de Madrid "Consultoría y AT a la
+  dirección de obra… Paseo Verde del Suroeste" (~2,7 M€, TED 2026); ETAP Villacarrillo AT
+  supervision (TED); BLET Córdoba AT Dirección de Obra/GIC (~8,9 M€, BOE 18-06-2026).
+- Added to radar: 71248000 (supervisión del proyecto y documentación) and 71356200
+  (servicios de asistencia técnica) — both browsable at contratos.gobierto.es/cpv/… which
+  is a usable free radar UI on top of PLACSP data.
+- INFERENCE confirmed: typical AT lots are far above RO's direct-bid size (Play 1
+  unrealistic near-term) → radar priority = Play 2 (bidders on these lots are pre-bid
+  Risk Scan leads; awardee/bidder names are public in adjudication docs).
+
 ## D. Explicit exclusions this cycle
 No contact names/emails recorded (none verified). No Canal de Panamá references in any
 lead-facing framing. No outreach text finalized (drafts next cycle after owner ranks segments).
