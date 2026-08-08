@@ -80,6 +80,25 @@ Pricing/offers: untouched. Money spent: none. Outreach sent: none. Tenders submi
 BRANCH STATUS: ON HOLD — DO NOT MERGE (owner directive, cycle 3). Queued work (Cluster-2
 landing page, radar sweep) stopped pending confirmation that this correction closes the hold.
 
+### Cycle 4 — 2026-08-08 (owner sequencing order applied)
+- Owner sequencing recorded: 1) Rung-1 landing → 2) SEO pages → 3) manual pilot outreach
+  → 4) small-budget Ads. Each step needs an explicit OWNER GO. Merge/Ads/outreach holds
+  unchanged; owner does NOT want the full baseline merged just to unblock Ads.
+- 48h correction: already completed and pushed before this order (commit `b18f771`).
+- STEP 1 READY: Rung-1 landing built as final HTML at `/recursos/21-riesgos-rehabilitacion/`
+  in isolated commit `3e1d3d1` — publishable by cherry-picking that single commit onto
+  main, no lifecycle-baseline content involved. One-step procedure + compliance
+  verification in `growth/RO_PUBLISH_PROCEDURE_RUNG1.md`. HELD awaiting GO.
+- New delta finding D6 (production, informational): og:image files (og-home.png,
+  og-fachada.png) referenced by production pages do not exist in the repo — social share
+  previews 404 site-wide. Fix is owner-approved production change; landing mirrors
+  production behavior meanwhile.
+- Despacho verification: VBB Abogados ≡ Boltas Boyé (same firm) — list deduplicated to
+  10 unique firms; VBB/BB Abogados verified (real, Barcelona, defectos practice).
+- Radar sweep #1: live 2026 AT-dirección-de-obra tenders/formalizations confirmed;
+  awardee-name extraction BLOCKED by session egress policy (boe.es/gobierto/TED
+  unfetchable; no names fabricated) — see leads doc §Radar sweep #1 for options.
+
 ## Next 3 actions (cycle 3)
 1. Draft Cluster-2 lead-magnet landing page as ready-to-publish HTML (held on branch) so the
    owner's approval → publish path is one step.

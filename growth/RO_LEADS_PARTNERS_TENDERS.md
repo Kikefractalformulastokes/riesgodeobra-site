@@ -56,9 +56,13 @@ Radar spec (manual weekly sweep until automation approved):
 | Belmonte Crespo Abogados | Barcelona + Valencia | belmontecrespoabogados.com |
 | Eseberri Abogados | Barcelona | eseberriabogados.com (contratos de obra/reforma) |
 | Real Abogados | — | realabogados.com (especialistas derecho de la construcción) |
-| Boltas Boyé Abogados | Barcelona | referenced via asesor.legal listing (verify site directly before outreach) |
 Angle for all: RO organizes the documentary evidence layer (matriz defecto–evidencia,
 methodological framing) that feeds their periciales/demandas — complement, not competitor.
+
+CORRECTION (cycle 4 verification): "Boltas Boyé Abogados" and "VBB Abogados" are the SAME
+firm (BB Abogados®, Passeig de Gràcia 8, Barcelona — 2011 merger of the Boltas and Boyé
+practices; trustlocal.es + vbbabogados.com confirm). List deduplicated: **10 unique firms**.
+VBB/BB Abogados verified as real with an explicit defectos-constructivos claims practice.
 
 ### CPV shortlist — VALIDATED with real 2026 tenders (FACT)
 - 71300000 + 71310000 confirmed live: e.g. Comunidad de Madrid "Consultoría y AT a la
@@ -70,6 +74,17 @@ methodological framing) that feeds their periciales/demandas — complement, not
 - INFERENCE confirmed: typical AT lots are far above RO's direct-bid size (Play 1
   unrealistic near-term) → radar priority = Play 2 (bidders on these lots are pre-bid
   Risk Scan leads; awardee/bidder names are public in adjudication docs).
+
+### Radar sweep #1 (cycle 4) — live targets found; awardee extraction BLOCKED by environment
+FACT (via search): fresh 2026 formalizaciones/licitaciones confirmed on-profile —
+Ministerio de Política Territorial HQ AT dirección de obra (BOE-B-2026-26021 Armada
+muelles EN PUNTALES; BOE-B-2026-26367 formalización, firmado 04-08-2026); multiple
+gobierto.es AT-dirección-de-obra records (ids 4715469, 4388411, 107523).
+BLOCKER: this session's egress proxy blocks direct fetches to boe.es, contratos.gobierto.es
+and ted.europa.eu, and search snippets omit the adjudicatario field — so bidder/awardee
+company names CANNOT be extracted from here without fabrication risk. Options: (a) owner
+allows those domains in the environment network policy; (b) sweep runs from a session/
+machine with open egress; (c) owner exports the PDFs manually. No names invented.
 
 ## D. Explicit exclusions this cycle
 No contact names/emails recorded (none verified). No Canal de Panamá references in any
