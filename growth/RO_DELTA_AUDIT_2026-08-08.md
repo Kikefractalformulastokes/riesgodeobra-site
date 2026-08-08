@@ -38,6 +38,11 @@ reading of the rule catches it because the name embeds the delivery promise. Opt
 (a) accept product-name references on new pages as-is; (b) rename CTA text to
 "Solicitar Risk Scan" on new pages only. **Owner to choose before merge.**
 
+RESOLUTION (2026-08-08, cycle 3): OWNER REJECTED option (a) — D2 not ratified. All 9
+"Risk Scan 48h" occurrences on the three new pages replaced with "Risk Scan"; prices and
+Stripe links unchanged; production untouched. Procedural correction recorded: a tag
+disagreement must be raised as a BLOCKER, not resolved in-mission with a flag.
+
 ### D3 — Required growth artifacts did not exist
 FACT: No `RO_GLOBAL_GROWTH_STATE.md`, no SEO map, no freemium design, no Ads
 architecture, no lead/partner/tender research existed anywhere in the repo.

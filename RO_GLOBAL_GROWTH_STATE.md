@@ -57,9 +57,28 @@ Done:
    demo excluded from all growth assets meanwhile).
 
 ## Hard-rule compliance state
-48h: not propagated to any new asset (one baseline breach found & fixed on branch, D2).
+48h — GOVERNANCE VIOLATION DETECTED AND REMEDIATED (2026-08-08, cycle 3):
+- Violation: the branch carried 9 added-line occurrences of "Risk Scan 48h" on the three
+  NEW pages (que-es ×3, pre-obra ×5, control-de-obra ×1). GREG's D2 interpretation treated
+  it as a product name and proceeded with a flag instead of raising a BLOCKER for owner
+  decision. The earlier statement here that 48h was "not propagated to any new asset" was
+  wrong under the policy's plain reading — retracted.
+- OWNER DECISION: D2 REJECTED / NOT RATIFIED. A reasonable buyer seeing "Risk Scan 48h"
+  beside a price and purchase CTA may read 48h as a delivery commitment; propagation to
+  new pages extends a PARTIALLY_SUPPORTED claim.
+- Remediation: all 9 occurrences replaced with neutral label "Risk Scan" (least
+  claim-heavy option) on the three new pages only. Prices and Stripe links preserved
+  exactly. No production page modified. Claims register label #9 unchanged (no new evidence).
+- Verification: added-lines scan (diff vs origin/main, added lines only — per-file grep
+  rejected as it cannot separate pre-existing text) → zero "48h" in new HTML/assets.
+  Remaining added-line matches are internal governance docs quoting the rule/register.
+- Process rule going forward: disagreement with a claims-register tag = BLOCKER for owner
+  decision, never resolved in-mission. New assets: zero "48h". Production: preserved as-is.
+  Recovering 48h as a strong claim requires operational fulfilment evidence first.
 CENDOJ: methodology-only language everywhere. Prohibited claims: zero in all new assets.
 Pricing/offers: untouched. Money spent: none. Outreach sent: none. Tenders submitted: none.
+BRANCH STATUS: ON HOLD — DO NOT MERGE (owner directive, cycle 3). Queued work (Cluster-2
+landing page, radar sweep) stopped pending confirmation that this correction closes the hold.
 
 ## Next 3 actions (cycle 3)
 1. Draft Cluster-2 lead-magnet landing page as ready-to-publish HTML (held on branch) so the
