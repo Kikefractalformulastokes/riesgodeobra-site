@@ -5,7 +5,11 @@ Claims register: BINDING · Working branch: `growth/ro-global-growth-001`
 
 ## Dual references (governance addendum 2026-08-08 — mandatory every cycle)
 - CANONICAL_BASELINE_SHA = `51f802829c26e0363677aa2d9154ec56ce995e77` (tip of `feature/full-lifecycle-positioning` — approved working baseline for claims/strategy; **NOT published**)
-- PRODUCTION_MAIN_SHA = `96d4a1c3ab22f84d12a263cdf513fb80012e83b9` (`origin/main` — what is actually deployed at riesgodeobra.es)
+- PRODUCTION_MAIN_SHA = `697d10ea1da0e6ae2959d0e593c62dcfbd342a20` (`origin/main` — deployed at riesgodeobra.es)
+  ⚠ MAIN ADVANCED 2026-08-09: `96d4a1c` → `697d10e` — cause: GREG published the Rung-1
+  landing on explicit OWNER GO (step 1 of approved sequencing), via cherry-pick of the
+  pre-approved isolated commit `3e1d3d1`. Single file added
+  (`recursos/21-riesgos-rehabilitacion/index.html`); no existing production file touched.
 
 Rules: never assume baseline content is published; every delta traceable against BOTH refs;
 GREG does not merge the baseline branch or move main (OWNER decisions); if origin/main
@@ -98,6 +102,19 @@ landing page, radar sweep) stopped pending confirmation that this correction clo
 - Radar sweep #1: live 2026 AT-dirección-de-obra tenders/formalizations confirmed;
   awardee-name extraction BLOCKED by session egress policy (boe.es/gobierto/TED
   unfetchable; no names fabricated) — see leads doc §Radar sweep #1 for options.
+
+### Cycle 5 — 2026-08-09 (STEP 1 EXECUTED on owner GO)
+- OWNER GO received (scope: ONLY Rung-1 landing publication). Executed the documented
+  procedure: cherry-picked `3e1d3d1` onto `origin/main` (was `96d4a1c`), pushed.
+  **New main commit: `697d10e`** ("Publish Rung-1 lead-magnet landing"). Diff verified
+  before push: 1 file, 90 insertions, zero "48h".
+- Deploy: GitHub Pages "pages build and deployment" run for `697d10e` triggered
+  (in_progress at time of report; previous runs for main SHAs all succeeded). Live-URL
+  fetch not possible from this session (riesgodeobra.es egress-blocked) — verification
+  done via Actions status instead.
+- Sitemap entry NOT added (was optional, outside GO scope — owner may approve separately).
+- Egress-policy decision remains PENDING per owner; no egress-dependent action taken.
+- Step 2 (SEO pages), step 3 (pilot outreach), step 4 (Ads) remain HELD awaiting their GOs.
 
 ## Next 3 actions (cycle 3)
 1. Draft Cluster-2 lead-magnet landing page as ready-to-publish HTML (held on branch) so the
